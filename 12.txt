@@ -1,0 +1,1 @@
+SELECT distinct enrollment.day,enrollment.hour from proje.section,proje.enrollment where section.courseCode=enrollment.courseCode and section.courseCode='ar101';

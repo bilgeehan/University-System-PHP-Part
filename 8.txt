@@ -1,0 +1,1 @@
+SELECT course.courseCode,course.courseName,course.ects FROM proje.course,proje.enrollment where course.courseCode=enrollment.courseCode and enrollment.sssn='10000000033' ;

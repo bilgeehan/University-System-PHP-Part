@@ -1,0 +1,1 @@
+SELECT baseSalary,dName FROM proje.instructor Where if(dName=dName,baseSalary=(baseSalary+baseSalary)/2,'');

@@ -1,0 +1,1 @@
+SELECT leadSsn,iName,extraSalary*workingHours FROM proje.project,instrinprojects,instructor where leadSsn=PrjleadSsn and PrjleadSsn=ssn and ssn=leadSsn and leadSsn='10000000001';

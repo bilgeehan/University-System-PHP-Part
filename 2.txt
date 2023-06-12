@@ -1,0 +1,1 @@
+SELECT studentId,Sname,iName FROM proje.student,instructor where student.advisorSsn=instructor.ssn;

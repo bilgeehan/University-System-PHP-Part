@@ -1,0 +1,1 @@
+SELECT courseCode,year,semester,grade FROM proje.enrollment where sssn='10000000033';

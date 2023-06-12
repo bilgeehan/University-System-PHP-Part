@@ -1,0 +1,1 @@
+SELECT student.sssn,student.Sname,semester,enrollment.year,enrollment.courseCode FROM proje.enrollment,proje.student where enrollment.sssn=student.sssn and  courseCode='be101'and enrollment.year=2020;
